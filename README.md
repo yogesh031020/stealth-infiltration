@@ -2,7 +2,7 @@
 
 > Real-time SLAM-based mapping and navigation for autonomous UAV reconnaissance in GPS-denied environments.
 
-![SLAM Map Result](docs/slam_map_result.png)
+![SLAM Map Result](Screenshot%202026-04-20%20084831.png)
 
 ## 🎯 Mission Objective
 
