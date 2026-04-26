@@ -1,0 +1,21 @@
+# ROS 2 common ignores
+install/
+build/
+log/
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+env/
+venv/
+ENV/
+
+# System ignores
+.DS_Store
+Thumbs.db
+
+# Workspace ignores
+.vscode/
+.idea/

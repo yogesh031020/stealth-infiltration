@@ -2,7 +2,7 @@
 
 > Real-time SLAM-based mapping and navigation for autonomous UAV reconnaissance in GPS-denied environments.
 
-![SLAM Map Result](Screenshot%202026-04-20%20084831.png)
+![SLAM Map Result](docs/slam_map_result.png)
 
 ## 🎯 Mission Objective
 
@@ -103,8 +103,12 @@ ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
 
 **Terminal 5 — Visualization:**
 ```bash
-rviz2 --ros-args -p use_sim_time:=true
+rviz2 -d config/slam_view.rviz --ros-args -p use_sim_time:=true
 ```
+
+### 📺 Demo Video
+
+[Click here to view the Mission Demo (Placeholder)](docs/demo_video.md)
 
 ### Flight Commands (in MAVProxy console)
 ```
@@ -122,9 +126,12 @@ stealth_infiltration/
 ├── config/
 │   └── slam_view.rviz          # RViz2 saved configuration
 ├── results/
-│   └── warehouse_map.*         # Generated SLAM map files
+│   └── warehouse_map.*         # Generated SLAM map files (PGM/YAML)
 ├── docs/
-│   └── slam_map_result.png     # SLAM visualization screenshot
+│   ├── slam_map_result.png     # SLAM visualization screenshot
+│   └── demo_video.md           # Instructions for demo recording
+├── requirements.txt            # System and Python dependencies
+├── LICENSE                     # MIT License
 └── README.md
 ```
 

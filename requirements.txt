@@ -1,0 +1,16 @@
+# Stealth Infiltration - Dependencies
+
+# Python Packages
+setuptools
+numpy
+opencv-python
+transforms3d
+
+# ROS 2 Jazzy System Dependencies (Ubuntu 24.04)
+# These should be installed using apt:
+# sudo apt update
+# sudo apt install ros-jazzy-slam-toolbox
+# sudo apt install ros-jazzy-depthimage-to-laserscan
+# sudo apt install ros-jazzy-ros-gz
+# sudo apt install ros-jazzy-tf2-ros
+# sudo apt install ros-jazzy-rviz2
