@@ -1,3 +1,13 @@
+# Stealth Infiltration SLAM 🛸
+
+![Status](https://img.shields.io/badge/Status-Active%20Development-success)
+![ROS2](https://img.shields.io/badge/ROS2-Jazzy-blue)
+![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Platform](https://img.shields.io/badge/Platform-Ubuntu%2024.04-red)
+
+**Autonomous reconnaissance stack using LiDAR SLAM and ROS 2 Nav2 for indoor navigation.**
+
 # 🛡️ Stealth Infiltration — GPS-Denied Autonomous Navigation
 
 > Real-time SLAM-based mapping and navigation for autonomous UAV reconnaissance in GPS-denied environments.
